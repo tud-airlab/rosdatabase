@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rosdatabase"
+version = "0.1.0"
+description = "Simple ros database that constantly stores information in yaml file."
+authors = ["Max Spahn <m.spahn@tudelft.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^6.0.1"
+numpy = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
